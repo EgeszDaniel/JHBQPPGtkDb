@@ -1,0 +1,74 @@
+1,
+SELECT Típus, Ár, Szín 
+FROM Auto;
+
+2,
+SELECT Auto.Rendszám, Tulajdonos.Név 
+FROM Auto
+JOIN Tulajdonos ON Auto.Tulaj = Tulajdonos.Tkód;
+
+3,
+SELECT Auto.Rendszám, Auto.Típus, Auto.Szín, Auto.Kor, Auto.Ár 
+FROM Auto
+JOIN Tulajdonos ON Auto.Tulaj = Tulajdonos.Tkód
+WHERE Tulajdonos.Cím = 'Miskolc';
+
+4,
+SELECT Tulajdonos.Név, Auto.Rendszám 
+FROM Tulajdonos
+LEFT JOIN Auto ON Tulajdonos.Tkód = Auto.Tulaj;
+
+5,
+SELECT Auto.Rendszám, Tulajdonos.Név 
+FROM Auto
+LEFT JOIN Tulajdonos ON Auto.Tulaj = Tulajdonos.Tkód;
+
+6,
+SELECT Auto.Rendszám 
+FROM Auto
+JOIN Tulajdonos ON Auto.Tulaj = Tulajdonos.Tkód
+WHERE Auto.Ár > (
+    SELECT AVG(Auto.Ár) 
+    FROM Auto 
+    JOIN Tulajdonos ON Auto.Tulaj = Tulajdonos.Tkód
+    WHERE Tulajdonos.Cím = 'Miskolc'
+) AND Tulajdonos.Cím != 'Ózd';
+
+7,
+SELECT Tulajdonos.Név 
+FROM Tulajdonos
+JOIN Auto ON Tulajdonos.Tkód = Auto.Tulaj
+GROUP BY Tulajdonos.Név
+HAVING COUNT(Auto.Rendszám) > 1;
+
+8,
+SELECT A1.Rendszám 
+FROM Auto A1
+WHERE A1.Ár > (
+    SELECT AVG(A2.Ár)
+    FROM Auto A2
+    WHERE A1.Típus = A2.Típus AND A1.Kor > A2.Kor
+);
+
+9,
+SELECT * 
+FROM Auto
+WHERE Ár < (
+    SELECT MIN(Ár) 
+    FROM Auto 
+    WHERE Szín = 'Piros'
+);
+
+10,
+SELECT * 
+FROM Auto A1
+WHERE NOT EXISTS (
+    SELECT 1 
+    FROM Auto A2
+    WHERE A2.Szín = 'Piros' AND A1.Ár >= A2.Ár
+);
+
+11,
+SELECT Név 
+FROM Tulajdonos
+WHERE Tkód NOT IN (SELECT Tulaj FROM Auto);

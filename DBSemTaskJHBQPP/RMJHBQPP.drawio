@@ -1,0 +1,245 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="25.0.1">
+  <diagram name="1 oldal" id="6SlUUEj2ZIAGegaBM8LX">
+    <mxGraphModel dx="1945" dy="1252" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-39" value="Olvasó" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="120" width="890" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-40" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-39">
+          <mxGeometry y="30" width="890" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-41" value="OlvasóID&lt;br&gt;&amp;nbsp;FK, NN varchar(10)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-40">
+          <mxGeometry width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-72" value="Név&lt;div&gt;varchar(25)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-40">
+          <mxGeometry x="150" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-73" value="Szül&lt;span style=&quot;background-color: initial;&quot;&gt;_dátum&lt;/span&gt;&lt;div&gt;Date&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-40">
+          <mxGeometry x="300" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-74" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Lakcím&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;varchar(30)&lt;/span&gt;&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-40">
+          <mxGeometry x="450" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-75" value="Telefonszám&lt;div&gt;varchar(15)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-40">
+          <mxGeometry x="600" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-76" value="Email&lt;div&gt;varchar(40)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-40">
+          <mxGeometry x="750" width="140" height="90" as="geometry">
+            <mxRectangle width="140" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-77" value="" style="line;strokeWidth=2;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="180" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-78" value="Kölcsönzés" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="120" width="900" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-79" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-78">
+          <mxGeometry y="30" width="900" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-87" value="KölcsönzésID&lt;br&gt;PK, NN&lt;br&gt;varchar(10)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-79">
+          <mxGeometry width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-80" value="OlvasóID&lt;br&gt;PK, NN&lt;br&gt;varchar(10)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-79">
+          <mxGeometry x="150" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-81" value="KönyvID&lt;br&gt;&amp;nbsp;FK, NN varchar(10)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-79">
+          <mxGeometry x="300" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-82" value="DolgozóID&lt;div&gt;PK, NN&lt;/div&gt;&lt;div&gt;varchar(10)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-79">
+          <mxGeometry x="450" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-83" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Kölcs_dátum&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Date&lt;/span&gt;&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-79">
+          <mxGeometry x="600" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-119" value="Kölcs_határidő&lt;div&gt;Date&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-79">
+          <mxGeometry x="750" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-90" value="Könyv" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="520" width="900" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-91" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-90">
+          <mxGeometry y="30" width="900" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-92" value="KönyvID&lt;div&gt;PK, NN&lt;/div&gt;&lt;div&gt;varchar(10)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-91">
+          <mxGeometry width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-93" value="Szerző_és_cím&lt;br&gt;varchar(100)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-91">
+          <mxGeometry x="150" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-94" value="Kiadási_év&lt;br&gt;int(4)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-91">
+          <mxGeometry x="300" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-95" value="ISBN&lt;div&gt;int(13)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-91">
+          <mxGeometry x="450" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-96" value="Példányszám&lt;div&gt;int(3)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-91">
+          <mxGeometry x="600" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yv2gVWp1VKkwYxKOVs87-1" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Műfaj&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;varchar(20)&lt;/span&gt;&#xa;&#xa;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-91">
+          <mxGeometry x="750" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" target="dgG5pzu6RUvh2YeDkdOa-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="680" as="targetPoint" />
+            <mxPoint x="1439" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="360" />
+              <mxPoint x="940" y="360" />
+              <mxPoint x="940" y="680" />
+              <mxPoint x="90" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-120" value="Dolgozó" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="520" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-121" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-120">
+          <mxGeometry y="30" width="600" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-122" value="Dolgoz&lt;span style=&quot;background-color: initial;&quot;&gt;óID&lt;/span&gt;&lt;div&gt;&lt;div&gt;FK, NN&lt;/div&gt;&lt;div&gt;varchar(10)&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-121">
+          <mxGeometry width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-123" value="Név&lt;br&gt;varchar(40)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-121">
+          <mxGeometry x="150" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-124" value="Email&lt;div&gt;varchar(40)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-121">
+          <mxGeometry x="300" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-125" value="Telefonszám&lt;br&gt;varchar(15)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-121">
+          <mxGeometry x="450" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-130" value="Tartozik" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="840" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-131" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-130">
+          <mxGeometry y="30" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-132" value="KönyvID&lt;div&gt;FK, NN&lt;/div&gt;&lt;div&gt;varchar(10)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-131">
+          <mxGeometry width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-133" value="KategóriaID&lt;div&gt;FK, NN&lt;/div&gt;&lt;div&gt;varchar(10)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-131">
+          <mxGeometry x="150" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-134" value="Hozzáférési_dátum&lt;div&gt;Date&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-131">
+          <mxGeometry x="300" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-138" value="Kategória" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="840" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-139" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-138">
+          <mxGeometry y="30" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-140" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;KategóriaID&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;PK, NN&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;varchar(10)&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-139">
+          <mxGeometry width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-141" value="Név&lt;div&gt;varchar(25)&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;rounded=0;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontColor=default;fontStyle=1;" vertex="1" parent="dgG5pzu6RUvh2YeDkdOa-139">
+          <mxGeometry x="150" width="150" height="90" as="geometry">
+            <mxRectangle width="150" height="90" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.067;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="dgG5pzu6RUvh2YeDkdOa-131" target="dgG5pzu6RUvh2YeDkdOa-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="915" />
+              <mxPoint x="-40" y="680" />
+              <mxPoint x="40" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgG5pzu6RUvh2YeDkdOa-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;exitX=0.489;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.233;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dgG5pzu6RUvh2YeDkdOa-131" target="dgG5pzu6RUvh2YeDkdOa-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1000" />
+              <mxPoint x="630" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8I25HuELnpiAhTi_0bU-1" value="" style="line;strokeWidth=2;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="180" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="m8I25HuELnpiAhTi_0bU-4" value="" style="line;strokeWidth=2;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="580" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="m8I25HuELnpiAhTi_0bU-5" value="" style="line;strokeWidth=2;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="906" width="90" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="m8I25HuELnpiAhTi_0bU-6" value="" style="line;strokeWidth=2;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;swimlaneFillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="180" width="85" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="BUNCp_0vxEa-ft-_VY2u-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.244;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;" edge="1" parent="1" source="dgG5pzu6RUvh2YeDkdOa-40" target="dgG5pzu6RUvh2YeDkdOa-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="57" y="280" />
+              <mxPoint x="1300" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUNCp_0vxEa-ft-_VY2u-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;exitX=0.128;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dgG5pzu6RUvh2YeDkdOa-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1598" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1157" y="680" />
+              <mxPoint x="1010" y="680" />
+              <mxPoint x="1010" y="396" />
+              <mxPoint x="1599" y="396" />
+              <mxPoint x="1599" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
